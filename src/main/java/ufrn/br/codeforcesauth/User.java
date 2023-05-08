@@ -28,7 +28,7 @@ public class User {
     @Column(nullable = false)
     private String codeforcesUsername;
 
-    private Integer rating;
+    private Integer rating = 800;
 
 //    @Column(nullable = false)
 //    private Boolean wantsNotification;
